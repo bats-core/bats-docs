@@ -194,4 +194,6 @@ versions.
 [bats-file]: https://github.com/bats-core/bats-file
 [git-book-submod]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
 [git-book-clone]: https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository
-[bats-load]: https://github.com/sstephenson/bats#load-share-common-code
+[bats-load]: https://bats-core.readthedocs.io/en/stable/writing-tests.html#load-share-common-code
+[bats-load_sstephenson]: https://github.com/sstephenson/bats#load-share-common-code
+[bats_ztombol]: https://github.com/ztombol/bats
