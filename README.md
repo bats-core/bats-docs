@@ -30,8 +30,8 @@ If your project is managed by npm, the recommended installation method is
 also via npm.
 
 ```sh
-$ npm install --save-dev https://github.com/ztombol/bats-support
-$ npm install --save-dev https://github.com/ztombol/bats-assert
+$ npm install --save-dev https://github.com/bats-core/bats-support
+$ npm install --save-dev https://github.com/bats-core/bats-assert
 ```
 
 ## Homebrew
@@ -74,7 +74,7 @@ a [submodule][git-book-submod].
 `./test/test_helper` directory.*
 
 ```sh
-$ git submodule add https://github.com/ztombol/bats-support test/test_helper/bats-support
+$ git submodule add https://github.com/bats-core/bats-support test/test_helper/bats-support
 $ git commit -m 'Add bats-support library'
 ```
 
@@ -88,7 +88,7 @@ If you do not use Git for version control, simply
 `./test/test_helper` directory.*
 
 ```sh
-$ git clone https://github.com/ztombol/bats-support test/test_helper/bats-support
+$ git clone https://github.com/bats-core/bats-support test/test_helper/bats-support
 ```
 
 
@@ -184,14 +184,14 @@ before running the project's test suite, but also allows easily
 selecting dependencies, e.g. testing compatibility with different
 versions.
 
-
 <!-- REFERENCES -->
 
 [bats]: https://github.com/sstephenson/bats
 [bats-pr-110]: https://github.com/sstephenson/bats/pull/110 
-[bats-support]: https://github.com/ztombol/bats-support
-[bats-assert]: https://github.com/ztombol/bats-assert
-[bats-file]: https://github.com/ztombol/bats-file
+[bats-core]: https://github.com/bats-core/bats-core
+[bats-support]: https://github.com/bats-core/bats-support
+[bats-assert]: https://github.com/bats-core/bats-assert
+[bats-file]: https://github.com/bats-core/bats-file
 [git-book-submod]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
 [git-book-clone]: https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository
 [bats-load]: https://github.com/sstephenson/bats#load-share-common-code
